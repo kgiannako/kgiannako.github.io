@@ -1,4 +1,16 @@
 ---
 layout: home
-author_profile: true
+title: "Welcome"
+subtitle: "Data Scientist | Statistics | Quant Finance"
 ---
+
+## Projects
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %Y" }}
+    </li>
+  {% endfor %}
+</ul>
+
