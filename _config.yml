@@ -223,7 +223,7 @@ kramdown:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: air # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: contrast # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
 # Outputting
