@@ -22,4 +22,4 @@ Used logistic regression, random forest, and XGBoost classifiers to optimize pre
 Accurate credit risk modeling helps financial institutions minimize loan defaults, optimize lending strategies, and improve overall portfolio quality.
 
 ### GitHub Repo
-[View the code here](https://github.com/kgiannako/credit-risk-modelling) <!-- Replace with your repo link -->
+[View the code here](https://github.com/kgiannako/credit_risk_modelling) <!-- Replace with your repo link -->
