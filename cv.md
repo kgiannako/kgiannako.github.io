@@ -5,8 +5,6 @@ permalink: /cv/
 author_profile: true
 classes: wide
 ---
-# Konstantinos Giannakopoulos
-
 ## Experience
 - **Data Scientist** @ Lloyd's List Intelligence [2024–Present]
   - Designed and implemented a custom company matching system, optimising data ingestion, scoring, and insertion using AWS SageMaker and a custom Docker container
