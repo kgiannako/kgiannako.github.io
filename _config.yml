@@ -122,7 +122,7 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:kostas.chl.97@gmail.com"
-     - label: "LinkedIn"
+    - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/konstantinos-giannakopoulos-352a30176/"
     - label: "Website"
