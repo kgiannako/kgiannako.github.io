@@ -12,7 +12,7 @@ classes: wide
 ---
 
 ### **Data Scientist** @ Lloyd's List Intelligence *(2024–Present)*  
-- Designed and implemented a custom company matching system using AWS SageMaker and Docker  
+- Designed and implemented a custom NLP company matching system using AWS SageMaker and Docker  
 - Developed automated candidate matching pipeline with embeddings + FAISS ANN search  
 - Delivered a PoC for vessel fuel consumption & GHG prediction using ML/statistical models
 
@@ -29,17 +29,16 @@ classes: wide
 ## Education
 ---
 **M.Sc. Statistics**, UCL *(2020–2021)*  
-*Dissertation:* *ABC for Factor Copula Models*  
+*Dissertation:* “Approximate Bayesian Computation for Factor Copula models” - Explored advanced Bayesian techniques for modelling complex dependence structures in finance  
 Projects:
-- GLMs vs RF vs XGBoost
-- Copula VaR
+- Predictive Modelling: GLMs vs Random Forest vs XGBoost
+- Risk Management: Copula VaR
 - ARIMA forecasting
 
 **B.Sc. Mathematics**, AUTh *(2015–2019)*  
-*Dissertation:* *Predicting Sleep Quality Using ML*  
+*Dissertation:* *Predicting Sleep Quality Using ML* - Developed predictive models to assess sleep quality based on key health indicators
 Key Modules:
-- Probability, Time Series
-- Econometrics, Deep Learning
+- Probability, Time Series, Stochastic Methods in Finance, Information Theory, Regression Models, Deep Learning, Econometrics, Partial Differential Equations
 
 ### Skills  
 **Languages**: Python, R, SQL, Fortran, Matlab, SPSS, LaTeX  
