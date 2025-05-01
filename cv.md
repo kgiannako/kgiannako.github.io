@@ -12,8 +12,8 @@ classes: wide
 ---
 
 ### **Data Scientist** @ Lloyd's List Intelligence *(2024–Present)*  
-- Designed and implemented a custom NLP company matching system using AWS SageMaker and Docker  
-- Developed automated candidate matching pipeline with embeddings + FAISS ANN search  
+- Designed and implemented a custom company matching system using AWS SageMaker and Docker  
+- Developed automated NLP candidate matching pipeline with embeddings + FAISS ANN search  
 - Delivered a PoC for vessel fuel consumption & GHG prediction using ML/statistical models
 
 ### **Senior Data Analyst** @ Lloyd's List Intelligence *(2023–2024)*  
