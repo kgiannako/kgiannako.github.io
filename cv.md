@@ -31,27 +31,35 @@ classes: wide
 
 <div class="row">
   <div class="col-half">
-    
+
 **M.Sc. Statistics**, UCL *(2020–2021)*  
-- Dissertation: *ABC for Factor Copula Models*  
-- Projects: GLM vs RF vs XGBoost, Copula VaR, ARIMA forecasting  
+*Dissertation:* *ABC for Factor Copula Models*  
+Projects:
+- GLMs vs RF vs XGBoost
+- Copula VaR
+- ARIMA forecasting
 
 **B.Sc. Mathematics**, AUTh *(2015–2019)*  
-- Dissertation: *Predicting Sleep Quality Using ML*  
-- Key modules: Probability, Time Series, Econometrics, Deep Learning
+*Dissertation:* *Predicting Sleep Quality Using ML*  
+Key Modules:
+- Probability, Time Series
+- Econometrics, Deep Learning
 
   </div>
   <div class="col-half">
 
-### Skills
-- **Languages**: Python, R, SQL, Fortran, Matlab, SPSS, LaTeX  
-- **Tools**: Git, Docker, AWS (SageMaker, Bedrock, ECR, Redshift), Power BI, Tableau  
-- **Search**: ElasticSearch  
+### Skills  
+**Languages**: Python, R, SQL, Fortran, Matlab, SPSS, LaTeX  
+**Tools**: Git, Docker, AWS (SageMaker, Bedrock, ECR, Redshift), Power BI, Tableau  
+**Search**: ElasticSearch
 
-### Certifications
-- Computational Finance (financial engineering & risk)  
-- Quantum Computing (Udemy)  
-- Datacamp: ML, Pandas, R, Time Series
+### Certifications  
+- Computational Finance (Financial Engineering & Risk)  
+- Udemy: Quantum Computing  
+- Datacamp:
+  - ML: Fundamentals, Unsupervised Learning  
+  - Python: Pandas, Intro, Intermediate  
+  - R: Programming, Big Data, Time Series
 
   </div>
 </div>
