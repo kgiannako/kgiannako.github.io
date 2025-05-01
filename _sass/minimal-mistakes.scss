@@ -35,3 +35,24 @@
 @import "minimal-mistakes/archive";
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
+
+// Custom CV styles
+.text-smaller {
+  font-size: 0.9em;
+}
+
+.col-half {
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+
+.col-half:last-child {
+  margin-right: 0;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
