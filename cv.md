@@ -28,26 +28,18 @@ classes: wide
 
 ## Education
 ---
+**M.Sc. Statistics**, UCL *(2020–2021)*  
+*Dissertation:* *ABC for Factor Copula Models*  
+Projects:
+- GLMs vs RF vs XGBoost
+- Copula VaR
+- ARIMA forecasting
 
-<div class="row">
-  <div class="col-half">
-    <h4>M.Sc. Statistics</h4>
-    <p><em>University College London (2020–2021)</em><br>
-    <strong>Dissertation:</strong> ABC for Factor Copula Models</p>
-    <p><strong>Projects:</strong><br>
-    – GLMs vs RF vs XGBoost<br>
-    – Copula VaR<br>
-    – ARIMA forecasting</p>
-
-    <h4>B.Sc. Mathematics</h4>
-    <p><em>Aristotle University of Thessaloniki (2015–2019)</em><br>
-    <strong>Dissertation:</strong> Predicting Sleep Quality Using ML</p>
-    <p><strong>Key Modules:</strong><br>
-    – Probability, Time Series<br>
-    – Econometrics, Deep Learning</p>
-  </div>
-
-</div>
+**B.Sc. Mathematics**, AUTh *(2015–2019)*  
+*Dissertation:* *Predicting Sleep Quality Using ML*  
+Key Modules:
+- Probability, Time Series
+- Econometrics, Deep Learning
 
 ### Skills  
 **Languages**: Python, R, SQL, Fortran, Matlab, SPSS, LaTeX  
