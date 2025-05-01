@@ -42,8 +42,7 @@ classes: wide
 
 ### Skills  
 **Languages**: Python, R, SQL, Fortran, Matlab, SPSS, LaTeX  
-**Tools**: Git, Docker, AWS (SageMaker, Bedrock, ECR, Redshift), Power BI, Tableau  
-**Search**: ElasticSearch
+**Tools**: Git, Docker, AWS (SageMaker, Bedrock, ECR, Redshift), Power BI, Tableau, ElasticSearch
 
 ### Certifications  
 - Computational Finance (Financial Engineering & Risk)  
@@ -52,9 +51,6 @@ classes: wide
   - ML: Fundamentals, Unsupervised Learning  
   - Python: Pandas, Intro, Intermediate  
   - R: Programming, Big Data, Time Series
-
-  </div>
-</div>
 
 ## Expertise
 ---
