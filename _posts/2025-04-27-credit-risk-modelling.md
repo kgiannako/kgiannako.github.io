@@ -1,5 +1,5 @@
 ---
-title: "Credit Risk Prediction Using Machine Learning"
+title: "Credit Risk Management: Probability of Default Prediction Using Machine Learning"
 date: 2025-04-27
 categories: [Finance, Machine Learning]
 ---
