@@ -20,10 +20,8 @@ Used logistic regression and other linear models as the baseline, and used light
 
 ### Key Results
 - Achieved an AUC score of 0.96 on the validation set.
-- XGBoost performed best overall, balancing recall and precision effectively.
+- An ensemble approach of lightGBM, XGBoost and catboost performed best overall, balancing recall and precision effectively.
 
-### Finance Relevance
-Accurate credit risk modeling helps financial institutions minimize loan defaults, optimize lending strategies, and improve overall portfolio quality.
 
 ### GitHub Repo
 [View the code here](https://github.com/kgiannako/credit_risk_modelling) <!-- Replace with your repo link -->
