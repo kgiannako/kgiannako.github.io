@@ -6,12 +6,12 @@ categories: [Finance, Machine Learning]
 
 ### Summary
 Developed a machine learning model to predict the probability of loan default based on borrower features such as income, interest rate, credit history, etc.  
-Used logistic regression and other linear models as the baseline, and used lightgbm, catboost,and XGBoost classifiers to achieve higher predictive performance.
+Used logistic regression and other linear models as the baseline, and used lightgbm, catboost, and XGBoost classifiers to achieve higher predictive performance.
 
 ### Methods
 - Exploratory Data Analysis:
- - Data visualisations of the numerical and categorical features
- - Visualisations of the predictors vs target
+  - Data visualisations of the numerical and categorical features
+  - Visualisations of the predictors vs target
 - Descriptive statistics
 - Outlier identification using IQR and visualisation
 - Data cleaning and feature engineering
