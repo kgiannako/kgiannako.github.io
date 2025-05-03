@@ -8,6 +8,10 @@ categories: [Finance, Machine Learning]
 Developed a machine learning model to predict the probability of loan default based on borrower features such as income, interest rate, credit history, etc.  
 Used logistic regression and other linear models as the baseline, and used lightgbm, catboost, and XGBoost classifiers to achieve higher predictive performance.
 
+### Key Results
+- Achieved an AUC score of 0.96 on the validation set.
+- An ensemble approach of lightGBM, XGBoost and catboost performed best overall, balancing recall and precision effectively.
+
 ### Methods
 - Exploratory Data Analysis:
   - Data visualisations of the numerical and categorical features
@@ -17,10 +21,6 @@ Used logistic regression and other linear models as the baseline, and used light
 - Data cleaning and feature engineering
 - Model evaluation using AUC-ROC and precision-recall curves
 - Hyperparameter tuning with cross-validation
-
-### Key Results
-- Achieved an AUC score of 0.96 on the validation set.
-- An ensemble approach of lightGBM, XGBoost and catboost performed best overall, balancing recall and precision effectively.
 
 
 ### GitHub Repo
