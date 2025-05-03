@@ -5,7 +5,7 @@ categories: [Finance, Machine Learning]
 ---
 
 ### Summary
-Developed a machine learning model to predict the probability of loan default based on borrower features such as income, interest rate, credit history, etc.  
+Developed a machine learning model to predict the probability of loan default (PD) based on borrower features such as income, interest rate, credit history, etc.  
 Used logistic regression and other linear models as the baseline, and used lightgbm, catboost, and XGBoost classifiers to achieve higher predictive performance.
 
 ### Key Results
