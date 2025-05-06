@@ -1,6 +1,7 @@
 ---
 title: "Credit Risk Management: Probability of Default Prediction Using Machine Learning"
 date: 2025-05-03
+classes: wide
 categories: [Finance, Machine Learning]
 ---
 
