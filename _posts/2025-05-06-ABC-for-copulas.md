@@ -17,3 +17,7 @@ Experiments included models with increasing dimensionality and different distrib
 Regression adjustments, both linear and local-linear, were applied to reduce the bias and variance of the posterior estimates. These adjustments led to lower estimation errors and more concentrated posterior distributions.
 
 The study concludes that ABC is a viable method for estimating high-dimensional, flexible copula models, provided that suitable summary statistics and a sufficient amount of data are available.
+<figure>
+  <img src="/assets/Rplot13.jpeg" alt="ABC with Regression">
+  <figcaption>Approximations of the posterior distribution of model parameters, using the ABC rejection algorithm vs with linear regression adjustment vs with local-linear regression adjustment</figcaption>
+</figure>  
