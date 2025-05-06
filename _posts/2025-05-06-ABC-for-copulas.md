@@ -16,3 +16,8 @@ Experiments included models with increasing dimensionality and different distrib
 Regression adjustments—both linear and local-linear—were applied to reduce the bias and variance of the posterior estimates. These adjustments led to lower estimation errors and more concentrated posterior distributions.
 
 The study concludes that ABC is a viable method for estimating high-dimensional, flexible copula models, provided that suitable summary statistics and a sufficient amount of data are available.
+
+<figure>
+  <img src="/assets/Rplot11.jpeg" alt="Factor Copulas">
+  <figcaption>Scatterplots of samples from four different Factor Copulas, with N(0,1) margins and with linear correlation 0.7</figcaption>
+</figure>
