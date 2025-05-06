@@ -1,5 +1,5 @@
 ---
-title: "Approximate Bayesian Computation (ABC) for Factor Copulas"
+title: "Approximate Bayesian Computation for Factor Copulas"
 date: 2021-09-18
 categories: [Bayesian, Copulas, factor-models, finance, statistical-modelling]
 ---
