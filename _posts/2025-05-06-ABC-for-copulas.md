@@ -9,7 +9,7 @@ This project explores the use of Approximate Bayesian Computation (ABC) to estim
 
 Factor copulas provide a flexible way to model dependencies between random variables through latent and idiosyncratic components. Several copula models were considered, including symmetric and asymmetric cases, with varying degrees of tail dependence. The estimation focused on dependence measures such as rank correlations and quantile dependence.
 <figure>
-  <img src="/assets/Rplot11.jpeg" alt="Factor Copulas" style="width: 50%;">
+  <img src="/assets/Rplot11.jpeg" alt="Factor Copulas" style="width: 70%;">
   <figcaption>Scatterplots of samples from four different Factor Copulas, with N(0,1) margins and with linear correlation 0.7</figcaption>
 </figure>  
 Experiments included models with increasing dimensionality and different distributional assumptions. Simulations showed that as the data size increases and the acceptance threshold tightens, the accuracy of the posterior approximation improves. For more complex models, including those with skewed and heavy-tailed distributions, ABC was still effective when enough data were available.
@@ -18,7 +18,7 @@ Regression adjustments, both linear and local-linear, were applied to reduce the
 
 The study concludes that ABC is a viable method for estimating high-dimensional, flexible copula models, provided that suitable summary statistics and a sufficient amount of data are available.
 <figure>
-  <img src="/assets/Rplot13.jpeg" alt="ABC with Regression">
+  <img src="/assets/Rplot13.jpeg" alt="ABC with Regression" style="width: 70%;">
   <figcaption>Approximations of the posterior distribution of model parameters, using the ABC rejection algorithm vs with linear regression adjustment vs with local-linear regression adjustment</figcaption>
 </figure>  
 ### GitHub Repo
