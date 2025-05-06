@@ -4,7 +4,6 @@ date: 2021-09-18
 categories: [bayesian-inference, factor-copulas, approximate-bayesian-computation, finance, statistical-modelling]
 ---
 ## Summary
-
 This project explores the use of Approximate Bayesian Computation (ABC) to estimate parameters of factor copula models, particularly in the context of stock return data. ABC is a simulation-based method that approximates the posterior distribution when the likelihood is difficult or impossible to compute. It operates by comparing observed and simulated summary statistics using a distance metric and a tolerance threshold.
 
 Factor copulas provide a flexible way to model dependencies between random variables through latent and idiosyncratic components. Several copula models were considered, including symmetric and asymmetric cases, with varying degrees of tail dependence. The estimation focused on dependence measures such as rank correlations and quantile dependence.
