@@ -21,3 +21,5 @@ The study concludes that ABC is a viable method for estimating high-dimensional,
   <img src="/assets/Rplot13.jpeg" alt="ABC with Regression">
   <figcaption>Approximations of the posterior distribution of model parameters, using the ABC rejection algorithm vs with linear regression adjustment vs with local-linear regression adjustment</figcaption>
 </figure>  
+### GitHub Repo
+[View the code here](https://github.com/kgiannako/Approximate-Bayesian-Computation-for-Factor-Copulas) 
