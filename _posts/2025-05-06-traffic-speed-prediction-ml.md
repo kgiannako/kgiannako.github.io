@@ -1,6 +1,7 @@
 ---
 title: "A Comparison of Machine Learning Methods for the Prediction of Traffic Speed in Urban Places"
 date: 2019-12-23
+classes: wide
 tags: [machine-learning, traffic, transportation, neural-networks, support-vector-regression, random-forest]
 ---
 ## Summary
