@@ -1,7 +1,7 @@
 ---
 title: "Approximate Bayesian Computation for Factor Copulas"
 date: 2021-09-18
-categories: [Bayesian, Copulas, factor-models, finance, statistical-modelling]
+categories: [bayesian-inference, factor-copulas, approximate-bayesian-computation, finance, statistical-modelling]
 ---
 ## Summary
 
