@@ -11,7 +11,10 @@ The models evaluated include:
 - **Support Vector Regression (SVR)**
 - **Multilayer Perceptron (MLP)**
 - **Multiple Linear Regression (MLR)**
-
+<figure>
+  <img src="/assets/sustainability-1.webp" alt="Flow">
+  <figcaption>Process flow.</figcaption>
+</figure>  
 The study uses probe data from Thessaloniki, Greece, and assesses model performance across three traffic scenarios:
 1. **Specific date-road combinations** – Predictions for randomly selected dates and roads.
 2. **Short-term forecasts** – Predictions over eight consecutive 15-minute intervals.
