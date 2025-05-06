@@ -24,4 +24,5 @@ The study concludes that ABC is a viable method for estimating high-dimensional,
 ### GitHub Repo
 [View the code here](https://github.com/kgiannako/Approximate-Bayesian-Computation-for-Factor-Copulas) 
 
-{% include button url="/assets/Final_report_researchproject.pdf" text="Download full PDF" %}
+[Download full PDF](/assets/Final_report_researchproject.pdf)
+
