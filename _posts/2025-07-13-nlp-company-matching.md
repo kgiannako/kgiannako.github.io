@@ -44,8 +44,8 @@ Traditional string-matching fails in such cases. Our goal was to:
 
 | Model             | Accuracy | Precision | Recall | F1 Score | AUC   |
 |------------------|----------|-----------|--------|----------|--------|
-| MiniLM-L6-v2      | 0.87     | 0.36      | 0.23   | 0.28     | 0.92   |
-| MPNet-Base-v2     | **0.92** | **0.91**  | **0.94** | **0.92** | **0.97** |
+| MiniLM-L6-v2      | **0.88**     | 0.32      | 0.08   | 0.12     | 0.92   |
+| MPNet-Base-v2     | 0.87 | **0.36**  | **0.23** | **0.28** | **0.97** |
 
 ✅ **MPNet outperformed MiniLM** in all metrics, showing stronger semantic representation of structured company text.
 
