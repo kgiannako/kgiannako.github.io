@@ -74,6 +74,29 @@ This visualises the distribution of similarity scores for matched vs non-matched
 
 You can find the full code here:  
 ➡️ [GitHub Repo](https://github.com/kgiannako/nlp-company-matching)
+---
+
+### 🔄 Next Steps
+
+Although the models demonstrated solid ranking performance (AUC > 0.80), classification precision remains relatively low. Below are a few avenues to improve the system:
+
+1. **Increase Dataset Size**  
+   The current dataset contains only 50 labelled pairs, which limits the model's ability to generalise. Expanding the training set, even to a few hundred pairs, would likely improve reliability.
+
+2. **Field-Specific Weighting**  
+   Not all fields contribute equally. For instance, the `brand` or `title` may carry more matching value than a long `description`. Custom weighting or encoding could help highlight important tokens.
+
+3. **Fine-Tune the Language Model**  
+   While we used pre-trained SBERT models (MiniLM and MPNet), fine-tuning on domain-specific entity pairs with a contrastive or triplet loss would help the model better distinguish subtle differences.
+
+4. **Train a Lightweight Classifier**  
+   Using the cosine similarity and/or embedding differences as features in a logistic regression or tree-based model could improve decision boundaries without retraining the language model.
+
+5. **Broader Retrieval Evaluation**  
+   Moving beyond pairwise scoring to a full retrieval task (e.g., matching a single query against a catalogue of 1,000 companies) would enable metrics like hit rate, recall@k, and real-world relevance.
+
+6. **Deploy as a Search Interface**  
+   The core components are well-suited for deployment in a demo interface (e.g., Streamlit or Flask app), allowing interactive search and inspection of match results.
 
 ---
 
