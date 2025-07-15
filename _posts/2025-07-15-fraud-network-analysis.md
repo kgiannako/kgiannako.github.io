@@ -1,10 +1,9 @@
 ---
 title: "Fraud Network Analysis Using Graph Analytics"
-date: 2019-12-23
+date: 2025-07-15
 classes: wide
 tags: [data-science, network-analysis, kaggle, fraud-detection]
 ---
-# Fraud Network Analysis Using Graph Analytics
 
 ## Overview
 
