@@ -4,7 +4,6 @@ date: 2025-07-12
 classes: wide
 tags: [nlp, faiss, sbert, language-models, embeddings, cosine-similarity, entity-matching]
 ---
-## Overview
 
 This project demonstrates a semantic entity matching pipeline designed to identify whether two company records refer to the same real-world organisation, despite textual variation or noise.
 
