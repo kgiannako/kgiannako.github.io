@@ -4,9 +4,6 @@ date: 2025-07-15
 classes: wide
 tags: [data-science, network-analysis, kaggle, fraud-detection]
 ---
-
-## Overview
-
 This project investigates financial fraud patterns by modeling transactions as network graphs and applying graph algorithms for exploratory analysis.  
 I explored both **tabular financial datasets** and **real-world blockchain transaction networks** to assess how fraud manifests in connected systems.
 
