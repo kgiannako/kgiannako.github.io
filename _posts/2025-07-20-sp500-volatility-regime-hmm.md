@@ -74,12 +74,14 @@ The weekly HMM model can support a regime-driven portfolio approach by:
 - **Calm + Bullish Regimes Strategy:** Delivered the strongest performance, annualised return of 21.69%, Sharpe of 1.54, and controlled drawdown (-20.94%)  
 - **Dynamic Exposure Strategy:** Strong Sharpe (1.31), moderate drawdowns  
 - **Only Calm Regime on Weekly Data:** Too conservative, limiting upside  
-- **Buy & Hold:** Continued to underperform across metrics  
+- **Buy & Hold:** Continued to underperform across metrics
+
 | Strategy | Annualised Return | Sharpe Ratio | Sortino Ratio | Max Drawdown |
 |----------|-------------------|--------------|--------------|--------------|
 | **Only Calm Regime (State 0)** | 9.67% | 0.86 | 1.23 | -37.32% |
 | **Calm + Bullish Regimes (State 0 or 1)** | **21.69%** | **1.54** | **2.66** | **-20.94%** |
 | **Buy & Hold** | 4.14% | 0.23 | 0.28 | -82.65% |
+
 ---
 
 The weekly model showed that combining calm and bullish regimes produced the best balance of returns and risk.  
