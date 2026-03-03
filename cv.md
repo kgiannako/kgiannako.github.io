@@ -12,15 +12,17 @@ classes: wide
 ---
 
 ### **Data Scientist** @ Lloyd's List Intelligence *(2024–Present)*  
-- Designed and implemented a custom company matching system using AWS SageMaker and Docker  
-- Developed automated NLP candidate matching pipeline with embeddings + FAISS ANN search  
-- Delivered a PoC for vessel fuel consumption & GHG prediction using ML/statistical models
+- Data science lead in a cross‑functional squad, driving delivery from strategy to launch
+- Built and deployed production‑grade NLP and retrieval pipelines in AWS SageMaker, converting text to embeddings via language models, indexing with FAISS, and applying custom re‑ranking, cutting manual screening time by ~50%  
+- Built and deployed a production‑grade entity‑resolution pipeline automating ~40% of structured matching cases
+- Prototyped an internal RAG‑based product assistant (AWS Bedrock + Streamlit) to accelerate responses to product and data queries for internal users and customers
+- Developed proof‑of‑concept models for vessel fuel consumption and emissions (ML and regression) to support exploratory ESG analytics
 
 
 ### **Senior Data Analyst** @ Lloyd's List Intelligence *(2023–2024)*  
-- Built statistical models for cargo payload & fuel consumption estimation  
-- Applied NLP for sentiment analysis & classification  
-- Created fuzzy matching and SageMaker pipelines for AIS destination alignment
+- Delivered statistical and ML models to impute maritime draft, payload, and fuel data, improving data quality for ESG emissions estimates and downstream models
+- Collaborated with engineers to build and automate fuzzy matching pipelines in AWS for vessel–port alignment, increasing prediction accuracy and data coverage.
+- Applied NLP techniques to analyse customer feedback, surfacing data quality gaps that directly guided investment into key core datasets.
 
 ### **Maritime Data Analyst** @ Lloyd's List Intelligence *(2021–2023)*  
 - Validated ML models for ETA, congestion & destination predictions  
@@ -70,4 +72,5 @@ classes: wide
 - Bratsas, Charalampos; Koupidis, Kleanthis; Salanova, Josep-Maria; Giannakopoulos, 
 Konstantinos; Kaloudis, Aristeidis; Aifadopoulou, Georgia. 2020. "A Comparison of 
 Machine Learning Methods for the Prediction of Traffic Speed in Urban 
+
 Places." **Sustainability** 12
