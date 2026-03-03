@@ -39,7 +39,7 @@ Shipping is a cyclical industry. A Panamax bulk carrier trading at $9,500/day to
 
 Freight rates are modelled as a **log-normal Ornstein-Uhlenbeck (OU) process**:
 
-$d\ln S_t = \kappa(\mu - \ln S_t)\,dt + \sigma\,dW_t$
+\\[d\ln S_t = \kappa(\mu - \ln S_t)\,dt + \sigma\,dW_t\\]
 
 where $S_t$ is the TCE rate, $\kappa$ is the mean reversion speed, $\mu$ is the long-run log-mean, and $\sigma$ is the instantaneous volatility.
 
