@@ -163,6 +163,8 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url:
 
+after_footer_scripts:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-MML-AM_CHTML
 
 # Reading Files
 include:
