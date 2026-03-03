@@ -71,6 +71,5 @@ classes: wide
 ---
 - Bratsas, Charalampos; Koupidis, Kleanthis; Salanova, Josep-Maria; Giannakopoulos, 
 Konstantinos; Kaloudis, Aristeidis; Aifadopoulou, Georgia. 2020. "A Comparison of 
-Machine Learning Methods for the Prediction of Traffic Speed in Urban 
+Machine Learning Methods for the Prediction of Traffic Speed in Urban Places." **Sustainability** 12
 
-Places." **Sustainability** 12
