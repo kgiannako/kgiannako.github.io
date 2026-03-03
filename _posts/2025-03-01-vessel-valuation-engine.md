@@ -11,7 +11,7 @@ tags:
   - monte-carlo
 excerpt: "Monte Carlo DCF model for dry bulk cargo vessels using a calibrated log-OU freight rate process. Distributions over everything — no point estimates."
 header:
-  teaser: /assets/images/vessel-valuation-teaser.png
+  teaser: /assets/vessel-valuation-teaser.png
 toc: true
 toc_label: "Contents"
 ---
