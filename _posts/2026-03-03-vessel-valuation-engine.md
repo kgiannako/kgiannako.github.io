@@ -41,7 +41,7 @@ Freight rates are modelled as a **log-normal Ornstein-Uhlenbeck (OU) process**:
 
 \\[d\ln S_t = \kappa(\mu - \ln S_t)\,dt + \sigma\,dW_t\\]
 
-where \\[S_t\\] is the TCE rate, \[\kappa\] is the mean reversion speed, $\mu$ is the long-run log-mean, and $\sigma$ is the instantaneous volatility.
+where \\(S_t\\) is the TCE rate, \\(\kappa\\) is the mean reversion speed, \\(\mu\\) is the long-run log-mean, and \\(\sigma\\) is the instantaneous volatility.
 
 The OU process is appropriate for freight rates for two reasons:
 - **Mean reversion**: rate spikes (2008, 2021) reliably unwind — unlike equities, rates don't trend indefinitely
@@ -53,7 +53,7 @@ Parameters are estimated from the Baltic Panamax Index (BPI), 2012–2025, via *
 
 \\[x_{t+1} = \alpha + \beta x_t + \varepsilon_t\\]
 
-with closed-form MLE giving $\hat{\beta}$, $\hat{\alpha}$, $\hat{\sigma}_\varepsilon$, which map back to the continuous-time OU parameters.
+with closed-form MLE giving \\(\hat{\beta}\\), \\(\hat{\alpha}\\), \\(\hat{\sigma}_\varepsilon\\), which map back to the continuous-time OU parameters.
 
 | Parameter | Value | Note |
 |-----------|-------|------|
