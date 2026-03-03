@@ -14,6 +14,7 @@ header:
   teaser: /assets/vessel-valuation-teaser.png
 toc: true
 toc_label: "Contents"
+classes: wide
 ---
 
 ## Overview
