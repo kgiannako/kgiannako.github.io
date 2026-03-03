@@ -23,7 +23,7 @@ A stochastic DCF valuation engine for dry bulk cargo vessels. The key design dec
 
 Built as a data product demonstrator, deployed as an interactive Streamlit web application.
 
-**[→ Live app]([https://vessel-valuation-dcf.streamlit.app](https://vessel-valuation-dcf.streamlit.app/))** &nbsp;·&nbsp; **[→ GitHub]([https://github.com/kgiannako/vessel-valuation-dcf](https://github.com/kgiannako/vessel-valuation-dcf))**
+**[→ Live app](https://vessel-valuation-dcf.streamlit.app)** &nbsp;·&nbsp; **[→ GitHub](https://github.com/kgiannako/vessel-valuation-dcf)**
 
 ---
 
