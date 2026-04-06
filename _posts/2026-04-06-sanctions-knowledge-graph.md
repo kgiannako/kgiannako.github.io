@@ -15,6 +15,7 @@ header:
   teaser: /assets/images/sanctions-kg-teaser.png
 toc: true
 toc_label: "Contents"
+classes: wide
 ---
 
 ## Overview
