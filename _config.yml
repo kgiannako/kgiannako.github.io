@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Konstantinos Giannakopoulos"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Scientist (UCL MSc Statistics) 4+ years production ML experience specialising in NLP/LLM pipelines, quantitative modelling, and graph-based risk analysis. Proven delivery of deployed systems (AWS SageMaker, Bedrock, Docker, FAISS) and cross-functional squad leadership."
+  bio              : "Data Scientist (UCL MSc Statistics) with 5 years of production ML experience across NLP/LLM pipelines, knowledge graph systems, and quantitative modelling. Proven delivery of deployed systems spanning AWS SageMaker, Bedrock, Neo4j, FAISS, and LangGraph, with hands-on experience building agentic retrieval architectures and semantic search at scale."
   location         : "London, United Kingdom"
   email            : "kostas.chl.97@gmail.com"
   links:
