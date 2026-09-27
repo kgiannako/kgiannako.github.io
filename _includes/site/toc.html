@@ -1,0 +1,17 @@
+{% comment %}
+  Builds a table of contents from the <h2 id="..."> headings kramdown generates.
+  Usage: {% include site/toc.html html=content %}
+{% endcomment %}
+{% assign chunks = include.html | split: '<h2 id="' %}
+{% if chunks.size > 2 %}
+<details class="toc" open>
+  <summary>Contents</summary>
+  <ol>
+    {% for chunk in chunks offset: 1 %}
+    {% assign id = chunk | split: '"' | first %}
+    {% assign heading = chunk | split: "</h2>" | first | remove_first: id | remove_first: '">' | strip_html | strip %}
+    <li><a href="#{{ id }}">{{ heading }}</a></li>
+    {% endfor %}
+  </ol>
+</details>
+{% endif %}

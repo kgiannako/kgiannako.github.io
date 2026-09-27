@@ -1,0 +1,10 @@
+{% assign e = include.entry %}
+{% assign fmt = include.date_format | default: "%Y" %}
+<li class="entry">
+  <time class="entry__date" datetime="{{ e.date | date_to_xmlschema }}">{{ e.date | date: fmt }}</time>
+  <div class="entry__body">
+    <a class="entry__title" href="{{ e.url | relative_url }}">{{ e.title }}</a>
+    {% assign desc = e.description | default: e.excerpt | strip_html | truncatewords: 32 %}
+    {% if desc != "" %}<p class="entry__desc">{{ desc }}</p>{% endif %}
+  </div>
+</li>

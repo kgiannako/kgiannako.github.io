@@ -1,0 +1,13 @@
+{% assign p = include.project %}
+<article class="card">
+  {% if p.image %}
+  <a class="card__media" href="{{ p.url | relative_url }}" tabindex="-1" aria-hidden="true">
+    <img src="{{ p.image | relative_url }}" alt="" loading="lazy"{% if p.image_position %} style="object-position: {{ p.image_position }}"{% endif %}>
+  </a>
+  {% endif %}
+  <div class="card__body">
+    <p class="meta">{{ p.group }} <span aria-hidden="true">/</span> {{ p.date | date: "%Y" }}</p>
+    <h3 class="card__title"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h3>
+    <p class="card__desc">{{ p.description }}</p>
+  </div>
+</article>

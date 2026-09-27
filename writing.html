@@ -1,0 +1,33 @@
+---
+layout: base
+title: Writing
+description: Articles and notes on applied AI, retrieval, entity resolution and modelling.
+permalink: /writing/
+---
+<div class="wrap">
+  <header class="page-header">
+    <h1>{{ page.title }}</h1>
+    <p class="lede">{{ page.description }}</p>
+    <p class="meta">
+      <a href="{{ '/feed.xml' | relative_url }}">RSS feed</a>
+      <span aria-hidden="true">/</span>
+      <a href="{{ '/tags/' | relative_url }}">Browse by tag</a>
+    </p>
+  </header>
+
+  {% if site.posts.size > 0 %}
+  {% assign years = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {% for year in years %}
+  <section class="list-section" aria-labelledby="year-{{ year.name }}">
+    <h2 class="list-section__title" id="year-{{ year.name }}">{{ year.name }}</h2>
+    <ul class="entries">
+      {% for post in year.items %}{% include site/entry.html entry=post date_format="%d %b" %}{% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+  {% else %}
+  <p class="empty">
+    Nothing published yet. The first articles, on retrieval, entity resolution and applied LLMs, are on the way.
+  </p>
+  {% endif %}
+</div>

@@ -1,5 +1,48 @@
 ---
-layout: home
-author_profile: true
+layout: base
 ---
+<div class="wrap wrap--wide home">
+  <section class="intro">
+    <p class="eyebrow">{{ site.author.role }} &middot; {{ site.author.employer }} &middot; {{ site.author.location }}</p>
+    <h1 class="intro__title">Retrieval, entity resolution and applied AI for global trade.</h1>
+    <p class="intro__text">
+      I'm Konstantinos. I lead applied research on cargo-flow tracking at Lloyd's List Intelligence, and before that built
+      production NLP retrieval and entity-resolution systems. I trained as a statistician (MSc, UCL) and keep a foot in
+      quantitative finance. This site collects my projects and my writing on applied AI.
+    </p>
+    <p class="intro__links">
+      <a class="button" href="{{ '/cv/' | relative_url }}">Read my CV</a>
+      <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/">LinkedIn</a>
+      <a href="mailto:{{ site.author.email }}">Email</a>
+    </p>
+  </section>
 
+  <section class="home-section" aria-labelledby="projects-heading">
+    <div class="section-head">
+      <h2 id="projects-heading">Selected projects</h2>
+      <a href="{{ '/projects/' | relative_url }}">All projects &rarr;</a>
+    </div>
+    {% assign featured = site.projects | where_exp: "p", "p.featured" | sort: "featured" %}
+    <div class="cards">
+      {% for p in featured %}{% include site/project-card.html project=p %}{% endfor %}
+    </div>
+  </section>
+
+  <section class="home-section" aria-labelledby="writing-heading">
+    <div class="section-head">
+      <h2 id="writing-heading">Writing</h2>
+      {% if site.posts.size > 0 %}<a href="{{ '/writing/' | relative_url }}">All writing &rarr;</a>{% endif %}
+    </div>
+    {% if site.posts.size > 0 %}
+    <ul class="entries">
+      {% for post in site.posts limit: 5 %}{% include site/entry.html entry=post date_format="%d %b %Y" %}{% endfor %}
+    </ul>
+    {% else %}
+    <p class="empty">
+      Nothing published yet. The first articles, on retrieval, entity resolution and applied LLMs, are on the way.
+      <a href="{{ '/feed.xml' | relative_url }}">Follow the RSS feed</a> to get them.
+    </p>
+    {% endif %}
+  </section>
+</div>

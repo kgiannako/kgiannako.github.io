@@ -1,0 +1,29 @@
+---
+layout: base
+title: Projects
+description: Write-ups of things I've built, from LLM retrieval and knowledge graphs to stochastic valuation models.
+permalink: /projects/
+---
+<div class="wrap wrap--wide">
+  <header class="page-header">
+    <h1>{{ page.title }}</h1>
+    <p class="lede">{{ page.description }}</p>
+  </header>
+
+  {% assign featured = site.projects | where_exp: "p", "p.featured" | sort: "featured" %}
+  <div class="cards">
+    {% for p in featured %}{% include site/project-card.html project=p %}{% endfor %}
+  </div>
+
+  {% for group in site.project_groups %}
+  {% assign items = site.projects | where: "group", group | sort: "date" | reverse %}
+  {% if items.size > 0 %}
+  <section class="list-section" aria-labelledby="group-{{ group | slugify }}">
+    <h2 class="list-section__title" id="group-{{ group | slugify }}">{{ group }}</h2>
+    <ul class="entries">
+      {% for p in items %}{% include site/entry.html entry=p %}{% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+  {% endfor %}
+</div>

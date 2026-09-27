@@ -1,0 +1,30 @@
+---
+layout: base
+title: Tags
+description: Everything on the site, grouped by topic.
+permalink: /tags/
+---
+{% assign items = site.posts | concat: site.projects %}
+{% assign all_tags = "" | split: "" %}
+{% for item in items %}{% assign all_tags = all_tags | concat: item.tags %}{% endfor %}
+{% assign all_tags = all_tags | uniq | sort %}
+<div class="wrap">
+  <header class="page-header">
+    <h1>{{ page.title }}</h1>
+    <p class="lede">{{ page.description }}</p>
+  </header>
+
+  <ul class="tags tags--index">
+    {% for tag in all_tags %}<li><a href="#{{ tag | slugify }}">{{ tag }}</a></li>{% endfor %}
+  </ul>
+
+  {% for tag in all_tags %}
+  {% assign tagged = items | where_exp: "i", "i.tags contains tag" | sort: "date" | reverse %}
+  <section class="list-section" aria-labelledby="{{ tag | slugify }}">
+    <h2 class="list-section__title" id="{{ tag | slugify }}">{{ tag }}</h2>
+    <ul class="entries">
+      {% for i in tagged %}{% include site/entry.html entry=i %}{% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</div>
