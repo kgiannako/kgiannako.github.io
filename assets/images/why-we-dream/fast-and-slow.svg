@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t d">
+  <title id="t">Fast and slow memory in the brain and in AI agents</title>
+  <desc id="d">In the brain, the hippocampus learns fast and replays experience during sleep into the neocortex, which learns slowly. In an AI agent, a context window and memory store learn fast, and dreaming curates that memory store, but nothing yet moves what it learns into the model's weights.</desc>
+  <style>
+    :root { --ink: #1b2025; --muted: #56606a; --rule: #d9d4c8; --accent: #0e5f7f; --accent-soft: #e2eef3; --raised: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      :root { --ink: #e7e4dd; --muted: #a4acb4; --rule: #343b43; --accent: #72b9da; --accent-soft: #15262f; --raised: #161b21; }
+    }
+    text { font-family: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif; fill: var(--muted); font-size: 13px; }
+    .row-label { font-family: "IBM Plex Mono", ui-monospace, Consolas, monospace; font-size: 11.5px; letter-spacing: 0.08em; }
+    .name { fill: var(--ink); font-size: 15.5px; font-weight: 600; }
+    .fast { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 1.5; }
+    .slow { fill: var(--raised); stroke: var(--rule); stroke-width: 1.5; }
+    .arrow { fill: none; stroke: var(--ink); stroke-width: 2; }
+    .arrow-dashed { fill: none; stroke: var(--muted); stroke-width: 2; stroke-dasharray: 6 5; }
+    .loop { fill: none; stroke: var(--accent); stroke-width: 2; }
+    .label-strong { fill: var(--ink); font-weight: 500; }
+    .label-accent { fill: var(--accent); font-weight: 500; }
+  </style>
+  <defs>
+    <marker id="head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" style="fill: var(--ink)"/>
+    </marker>
+    <marker id="head-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" style="fill: var(--muted)"/>
+    </marker>
+    <marker id="head-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" style="fill: var(--accent)"/>
+    </marker>
+  </defs>
+
+  <!-- Column headings -->
+  <text class="row-label" x="230" y="22" text-anchor="middle">FAST LEARNER</text>
+  <text class="row-label" x="590" y="22" text-anchor="middle">SLOW LEARNER</text>
+
+  <!-- Row 1: brain -->
+  <text class="row-label" x="16" y="92">BRAIN</text>
+  <rect class="fast" x="120" y="40" width="220" height="92" rx="10"/>
+  <text class="name" x="230" y="80" text-anchor="middle">Hippocampus</text>
+  <text x="230" y="102" text-anchor="middle">records episodes as they happen</text>
+
+  <rect class="slow" x="480" y="40" width="220" height="92" rx="10"/>
+  <text class="name" x="590" y="80" text-anchor="middle">Neocortex</text>
+  <text x="590" y="102" text-anchor="middle">extracts general knowledge</text>
+
+  <path class="arrow" d="M346,86 L472,86" marker-end="url(#head)"/>
+  <text class="label-strong" x="410" y="74" text-anchor="middle">replay during sleep</text>
+
+  <!-- Row 2: AI agent -->
+  <text class="row-label" x="16" y="236">AI AGENT</text>
+  <rect class="fast" x="120" y="184" width="220" height="92" rx="10"/>
+  <text class="name" x="230" y="224" text-anchor="middle">Context + memory store</text>
+  <text x="230" y="246" text-anchor="middle">conversations, logs, notes</text>
+
+  <rect class="slow" x="480" y="184" width="220" height="92" rx="10"/>
+  <text class="name" x="590" y="224" text-anchor="middle">Model weights</text>
+  <text x="590" y="246" text-anchor="middle">fixed when training ends</text>
+
+  <path class="arrow-dashed" d="M346,230 L472,230" marker-end="url(#head-muted)"/>
+  <text x="410" y="218" text-anchor="middle">not yet</text>
+
+  <!-- Dreaming: a loop that curates the memory store itself -->
+  <path class="loop" d="M190,282 C190,334 270,334 270,288" marker-end="url(#head-accent)"/>
+  <text class="label-accent" x="290" y="322">"dreaming" curates the store</text>
+</svg>

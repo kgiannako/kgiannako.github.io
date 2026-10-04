@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-labelledby="t d">
+  <title id="t">Ebbinghaus's forgetting curve</title>
+  <desc id="d">Savings on relearning after a delay: 20 minutes 58.2%, 1 hour 44.2%, 9 hours 35.8%, 1 day 33.7%, 2 days 27.8%, 6 days 25.4%, 31 days 21.1%. Data from Ebbinghaus (1885).</desc>
+  <style>
+    :root { --ink: #1b2025; --muted: #56606a; --grid: #e4e0d6; --line: #0e5f7f; --surface: #fbfaf6; }
+    @media (prefers-color-scheme: dark) {
+      :root { --ink: #e7e4dd; --muted: #a4acb4; --grid: #272d34; --line: #72b9da; --surface: #101418; }
+    }
+    text { font-family: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif; fill: var(--muted); font-size: 13px; }
+    .value { fill: var(--ink); font-weight: 600; font-size: 14px; }
+    .axis-title { font-size: 12.5px; }
+    .grid { stroke: var(--grid); stroke-width: 1; }
+    .baseline { stroke: var(--muted); stroke-width: 1; }
+    .series { fill: none; stroke: var(--line); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+    .dot { fill: var(--line); stroke: var(--surface); stroke-width: 2; }
+  </style>
+
+  <!-- y gridlines: 0, 20, 40, 60 % (y = 330 - v/70*290) -->
+  <line class="grid" x1="70" x2="690" y1="247.1" y2="247.1"/>
+  <line class="grid" x1="70" x2="690" y1="164.3" y2="164.3"/>
+  <line class="grid" x1="70" x2="690" y1="81.4" y2="81.4"/>
+  <line class="baseline" x1="70" x2="690" y1="330" y2="330"/>
+  <text x="60" y="334" text-anchor="end">0%</text>
+  <text x="60" y="251" text-anchor="end">20%</text>
+  <text x="60" y="168" text-anchor="end">40%</text>
+  <text x="60" y="85" text-anchor="end">60%</text>
+
+  <!-- x: log10(hours), 0.2 h to 1000 h across 70..690 -->
+  <g text-anchor="middle">
+    <text x="107.3" y="352">20 min</text>
+    <text x="187.3" y="352">1 h</text>
+    <text x="345.6" y="352">9 h</text>
+    <text x="418.6" y="352">1 day</text>
+    <text x="469.0" y="352">2 days</text>
+    <text x="549.0" y="352">6 days</text>
+    <text x="668.5" y="352">31 days</text>
+  </g>
+  <text class="axis-title" x="380" y="380" text-anchor="middle">Time since learning (log scale)</text>
+  <text class="axis-title" x="70" y="30">Time saved when relearning the list</text>
+
+  <polyline class="series" points="107.3,88.9 187.3,146.9 345.6,181.7 418.6,190.4 469.0,214.8 549.0,224.8 668.5,242.6"/>
+  <g class="dots">
+    <circle class="dot" cx="107.3" cy="88.9" r="5"/>
+    <circle class="dot" cx="187.3" cy="146.9" r="5"/>
+    <circle class="dot" cx="345.6" cy="181.7" r="5"/>
+    <circle class="dot" cx="418.6" cy="190.4" r="5"/>
+    <circle class="dot" cx="469.0" cy="214.8" r="5"/>
+    <circle class="dot" cx="549.0" cy="224.8" r="5"/>
+    <circle class="dot" cx="668.5" cy="242.6" r="5"/>
+  </g>
+
+  <!-- Selective direct labels: start, one hour, end -->
+  <text class="value" x="120" y="80">58%</text>
+  <text class="value" x="199" y="139">44%</text>
+  <text class="value" x="668.5" y="226" text-anchor="middle">21%</text>
+</svg>
