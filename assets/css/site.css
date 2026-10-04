@@ -476,7 +476,7 @@ h1, h2, h3, h4 { line-height: 1.2; margin: 0; text-wrap: balance; }
 .figure-wide__scroll { overflow-x: auto; }
 .figure-wide__scroll img { display: block; margin: 0 auto; }
 @media (max-width: 40rem) {
-  .figure-wide__scroll img { min-width: 36rem; max-width: none; }
+  .figure-wide__scroll img { width: 36rem; max-width: none; height: auto; }
 }
 
 /* Tables scroll sideways on narrow screens instead of breaking the layout */
