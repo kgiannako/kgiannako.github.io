@@ -9,6 +9,8 @@ In 1953 a 27-year-old man called Henry Molaison had brain surgery to stop his se
 
 This might sound familiar. Open a new chat with a language model and you meet something in much the same state: articulate, well-read and with no memory of the last time you spoke. The parallel runs deeper than a simple metaphor. What today's AI systems have, and what they are missing, maps closely onto how the human brain stores, consolidates and forgets. And it has already gone beyond analogy: in the last year, AI agents have started to "dream".
 
+The [first post in this series]({% post_url 2026-09-28-what-does-a-machine-actually-know %}) asked what a machine can be said to know. This one asks how it remembers, and what it should forget.
+
 ## Different kinds of memory
 
 H.M. advanced our understanding of memory as much through what he kept as through what he lost. He could hold a number in mind for a few seconds. He remembered much of his early life. And he could still learn skills. In one of Brenda Milner's studies in the early 1960s, he was asked to trace a star while seeing his hand only in a mirror, a task people get better at with practice (Milner, 1962). H.M. got better day after day, while insisting each time that he had never tried it before.
