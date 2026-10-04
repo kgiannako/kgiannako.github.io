@@ -63,6 +63,8 @@ This is where the three ideas meet. Knowledge asks what makes an answer trustwor
 
 The rest of this series is about how to tie the statues down.
 
+*Next in this series: [Why We Dream, and Why AI Is Starting To]({% post_url 2026-10-04-why-we-dream-and-why-ai-is-starting-to %}).*
+
 ## References
 
 - Plato, *Theaetetus* (wax block 191c; aviary 197c; true belief with an account 201c) and *Meno* (statues of Daedalus 97d–98a). Aristotle, *On Memory and Recollection* (recollection by association 451b).
