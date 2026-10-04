@@ -46,8 +46,8 @@ If the sleeping brain is replaying the day, why are dreams so strange? If sleep'
 
 Deployed language models still have no "night shift", but the agents built on them are starting to get one. Letta, an agent-memory startup, has built "sleep-time" agents that reorganise memory in the background between conversations (Lin et al., 2025). In May 2026 Anthropic previewed a feature for its managed agents called dreaming. That's a scheduled process that reviews past sessions, extracts patterns and curates the agent's memory (Anthropic, 2026). This is a step towards consolidation, but these night shifts don't yet touch the model's weights.
 
-<figure>
-  <img src="/assets/images/why-we-dream/fast-and-slow.svg" width="720" height="340" loading="lazy" alt="Diagram comparing the brain with an AI agent. In the brain, the hippocampus (fast learner) replays experience during sleep into the neocortex (slow learner). In an AI agent, dreaming curates the context and memory store (fast learner), but nothing yet carries what it learns into the model's weights (slow learner).">
+<figure class="figure-wide">
+  <div class="figure-wide__scroll"><a href="/assets/images/why-we-dream/fast-and-slow.svg"><img src="/assets/images/why-we-dream/fast-and-slow.svg" width="720" height="340" loading="lazy" alt="Diagram comparing the brain with an AI agent. In the brain, the hippocampus (fast learner) replays experience during sleep into the neocortex (slow learner). In an AI agent, dreaming curates the context and memory store (fast learner), but nothing yet carries what it learns into the model's weights (slow learner)."></a></div>
   <figcaption>Both need a fast learner and a slow one. Sleep carries what the brain learns from the first to the second; an agent's "dreaming" so far only tidies the first.</figcaption>
 </figure>
 
@@ -61,8 +61,8 @@ An AI agent whose memory only grows is heading towards Funes. Each retrieval has
 
 **Forgetting by usefulness.** In 1885 Hermann Ebbinghaus published the first measurements of forgetting, from a limited study he had run on himself. Most of what he learned faded quickly, then the losses slowed, tracing what became known as the forgetting curve. A century later, John Anderson and Lael Schooler showed why the curve has that shape: in newspaper headlines, speech to children and email, the chance that a word will be needed again falls off over time in the same way (Anderson & Schooler, 1991). Forgetting is a bet on what you will need, based on how often and how recently you have needed it. Park et al.'s generative agents (2023) make a version of the same bet, scoring each memory partly by how recently it was used, so stale memories fade from retrieval.
 
-<figure>
-  <img src="/assets/images/why-we-dream/forgetting-curve.svg" width="720" height="390" loading="lazy" alt="Line chart of Ebbinghaus's forgetting curve on a log time scale. Time saved when relearning: 58% after 20 minutes, 44% after 1 hour, 36% after 9 hours, 34% after 1 day, 28% after 2 days, 25% after 6 days and 21% after 31 days.">
+<figure class="figure-wide">
+  <div class="figure-wide__scroll"><a href="/assets/images/why-we-dream/forgetting-curve.svg"><img src="/assets/images/why-we-dream/forgetting-curve.svg" width="720" height="390" loading="lazy" alt="Line chart of Ebbinghaus's forgetting curve on a log time scale. Time saved when relearning: 58% after 20 minutes, 44% after 1 hour, 36% after 9 hours, 34% after 1 day, 28% after 2 days, 25% after 6 days and 21% after 31 days."></a></div>
   <figcaption>Ebbinghaus's own data (1885): how much time he saved when relearning lists of nonsense syllables after different delays. Within an hour, more than half the benefit of learning was gone; a month later, about a fifth remained.</figcaption>
 </figure>
 

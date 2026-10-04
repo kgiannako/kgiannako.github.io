@@ -472,6 +472,13 @@ h1, h2, h3, h4 { line-height: 1.2; margin: 0; text-wrap: balance; }
 .prose figure img { display: block; margin: 0 auto; }
 .prose figcaption { margin-top: 0.6rem; font-family: var(--sans); font-size: 0.875rem; color: var(--text-muted); }
 
+/* Detailed figures (diagrams, charts) keep a readable size on phones by scrolling sideways */
+.figure-wide__scroll { overflow-x: auto; }
+.figure-wide__scroll img { display: block; margin: 0 auto; }
+@media (max-width: 40rem) {
+  .figure-wide__scroll img { min-width: 36rem; max-width: none; }
+}
+
 /* Tables scroll sideways on narrow screens instead of breaking the layout */
 .prose table {
   display: block;
