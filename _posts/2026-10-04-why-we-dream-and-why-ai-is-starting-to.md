@@ -82,6 +82,8 @@ If you're building agents with memory, three simple ideas follow from all this:
 
 We have built machines with a long-term memory distilled from tens of trillions of tokens, roughly tens of thousands of reading lifetimes for a person; a short-term memory that can hold all of *War and Peace* at once; notebooks like the CLAUDE.md files developers leave for their coding agents; and, as of this year, something like a night shift. What they don't yet have is a sleep deep enough to change what they know, or a good way to decide what to forget.
 
+*Next in this series: [Where Does an AI Keep What It Knows?]({% post_url 2026-10-18-where-does-an-ai-keep-what-it-knows %})*
+
 ## References
 
 - Anderson, J. R. & Schooler, L. J. (1991). [Reflections of the environment in memory](https://doi.org/10.1111/j.1467-9280.1991.tb00174.x). *Psychological Science* 2(6), 396–408.
