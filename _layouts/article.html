@@ -1,7 +1,8 @@
 ---
 layout: base
 ---
-{% assign words = content | strip_html | number_of_words %}
+{% comment %} Reading time counts the body only, not the reference list {% endcomment %}
+{% assign words = content | split: '<h2 id="references"' | first | strip_html | number_of_words %}
 {% assign minutes = words | divided_by: 200 | at_least: 1 %}
 <article class="wrap article">
   <header class="article-header">
