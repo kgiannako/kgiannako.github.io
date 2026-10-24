@@ -78,6 +78,8 @@ The hard cases are the ones where the sources disagree, such as when the model r
 
 Every agent answers the same question many times a day: do I know this, have I written it down, or should I look it up? People have made that choice for as long as there have been notebooks and libraries, mostly without noticing. Agents have to make it explicitly, and so do the people who build them.
 
+*Next in this series: [Reasoning in Minds and Machines]({% post_url 2026-10-24-reasoning-in-minds-and-machines %}).*
+
 ## References
 
 - Cherny, B. (2025). Interviewed in [Claude Code: Anthropic's agent in your terminal](https://www.latent.space/p/claude-code). *Latent Space* podcast, 7 May 2025.
