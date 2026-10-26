@@ -5,13 +5,13 @@ tags: [reasoning, llms, agents, cognition, mathematics]
 toc: true
 ---
 
-Ask a modern AI model a question like "how many times does the digit 7 appear if you write out every number from 1 to 1,000?", and it does not answer straight away. First it writes, sometimes pages of working, counting the units, then the tens, then the hundreds, checking whether 77 counts once or twice, spotting a slip: "Wait, 777 has three sevens, not one. Let me recount." Then a short, confident answer, 300. In 2022, researchers showed that asking for step-by-step working improved answers. OpenAI built it into a commercial product with o1 in 2024, and today most leading models offer some version of it, usually as a switch or a dial for how hard to think.
+Ask a modern AI model a question like "how many times does the digit 7 appear if you write out every number from 1 to 1,000?", and it won't answer straight away. First it writes, sometimes pages of working, counting the units, then the tens, then the hundreds, checking whether 77 counts once or twice, spotting a slip: "Wait, 777 has three sevens, not one. Let me recount." Then a short, confident answer, 300. In 2022, researchers showed that asking for step-by-step working improved answers. OpenAI built it into a commercial product with o1 in 2024, and today most leading models offer some version of it, usually as a switch or a dial for how hard to think.
 
 Reading these traces is quite remarkable and a bit bizarre at times. They look a lot like someone thinking on paper, like an inner monologue. The question is whether this is reasoning or a very good imitation of it. A less obvious question is whether it really matters.
 
 ## What we mean by reasoning
 
-The philosopher Charles Sanders Peirce, writing from the 1870s onwards, split reasoning into three kinds, and all three can turn up in a single evening. You come home to find the kitchen floor wet. Your first thought is that the dishwasher has leaked again. That is abduction, a guess at the best explanation for something surprising. Then you look more closely. The water is pooling under the dishwasher, the floor by the sink is dry, and nothing else in that corner carries water, so it must be the dishwasher. That is deduction: if the premises are true, the conclusion has to be. Finally, you remember it has leaked three times this year, each time after the long eco cycle, and conclude that the long cycle is the problem. That is induction, a general rule drawn from repeated cases.
+The philosopher Charles Sanders Peirce, writing from the 1870s onwards, split reasoning into three kinds. You come home to find the kitchen floor wet. Your first thought is that the dishwasher has leaked again. That is abduction, a guess at the best explanation for something surprising. Then you look more closely. The water is pooling under the dishwasher, the floor by the sink is dry, and nothing else in that corner carries water, so it must be the dishwasher. That is deduction. If the premises are true, the conclusion has to be. Finally, you remember it has leaked three times this year, each time after the long eco cycle, and conclude that the long cycle is the problem. That is induction, a general rule drawn from repeated cases.
 
 Only deduction guarantees its conclusion. Guesses and generalisations can be wrong, yet most everyday reasoning runs on abduction and induction, from a doctor reading symptoms to a scientist proposing a theory. Language models, trained to produce the most plausible continuation of a text, are arguably natural guessers. The harder question is whether they can reliably deduce and generalise as well.
 
@@ -45,7 +45,7 @@ Handing work to tools echoes the extended mind from [Post 1]({% post_url 2026-09
 
 ## Reasoning in formal languages
 
-The idea that reasoning is, or can be turned into, calculation is old. Thomas Hobbes wrote in *Leviathan* (1651) that reason "is nothing but reckoning", and Gottfried Leibniz imagined a formal language in which disputes could be settled by saying "let us calculate". George Boole's *The Laws of Thought* (1854) turned logic into algebra. By the 20th century proofs could be written in systems that a machine could, in principle, check line by line.
+The idea that reasoning is, or can be turned into, calculation is old. Thomas Hobbes wrote in *Leviathan* (1651) that reason "is nothing but reckoning". Gottfried Leibniz later imagined a formal language in which disputes could be settled by saying "let us calculate". George Boole's *The Laws of Thought* (1854) turned logic into algebra. By the 20th century proofs could be written in systems that a machine could, in principle, check line by line.
 
 The idea also met its limits. In 1931 Kurt Gödel showed that any consistent formal system powerful enough to express arithmetic contains true statements it cannot prove, so no single system can capture all of mathematics. The more practical bottleneck is that a problem has to be stated formally first, while real problems arrive in messy language.
 
@@ -73,13 +73,13 @@ Latent reasoning also revives an old question. Does reasoning need language at a
 
 ## Reasons after the fact
 
-If a model writes out its reasoning, it is tempting to treat that text as a window into what it is doing. There is good evidence that the window is partly painted.
+If a model writes out its reasoning, it is tempting to treat that text as a window into what it is doing. There is good evidence that the window doesn't show everything.
 
 Miles Turpin and colleagues (2023) gave models a series of multiple-choice examples in which the correct answer always happened to be (A). The models picked up the pattern and started choosing (A) on new questions, then wrote plausible step-by-step explanations for their choices that never mentioned the pattern. In 2025 a team at Anthropic, led by Yanda Chen, slipped hints into prompts and checked whether reasoning models admitted using them. Most of the time they did not. The omissions were not about keeping things short, since the unfaithful explanations were actually longer than the honest ones, and they became more common as questions got harder. In both studies, the written reasoning was plausible but left out what actually drove the answer. The Anthropic team's conclusion was that monitoring a model's reasoning is a promising way to catch unwanted behaviour during training and testing, but not enough on its own to rule it out.
 
 People, too, routinely give plausible reasons that were not the real cause of their choices. In a famous 1977 study, Richard Nisbett and Timothy Wilson asked shoppers to pick the best of four identical pairs of stockings. The pair on the far right was chosen about four times as often as the pair on the far left, and people explained their choice by the quality of the fabric. Nobody mentioned position. Later studies on "choice blindness" (Johansson, Hall and colleagues, 2005) went further. People secretly handed the option they had rejected often didn't notice, and defended it with reasons as if they had chosen it. Mercier and Sperber would not be surprised. If reasoning evolved partly to justify, then a fluent justification is no proof that it caused the decision, in people or in machines.
 
-That does not make visible reasoning useless. Even an imperfect trace often reveals mistakes.
+That's not to say that visible reasoning is useless. Even an imperfect trace often reveals mistakes.
 
 ## What counts as reasoning
 
