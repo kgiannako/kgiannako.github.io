@@ -5,7 +5,7 @@ permalink: /cv/
 class: cv
 ---
 
-Senior Data Scientist (MSc Statistics, UCL) at Lloyd's List Intelligence with 5 years in maritime and trade analytics, currently leading applied research on cargo-flow tracking across crude and container markets. My work spans AIS and geospatial analytics, satellite-imagery detection pipelines, NLP/LLM retrieval and entity resolution, including a compliance screening system that reached £200k ACV in its first 10 weeks. I'm experienced in both applied research and building production systems.
+Senior Data Scientist at Lloyd's List Intelligence with 5 years in maritime and trade analytics, currently leading research and development on tracking physical cargo and global trade flows across crude and container markets. Work spans AIS and geospatial analytics, satellite-imagery detection pipelines, NLP/LLM retrieval and entity resolution, including a compliance screening system that reached £200k ACV in its first 10 weeks. Experienced in both applied research and building production systems. Background in Statistics (MSc, UCL) and Mathematics (BSc, AUTh).
 
 ## Experience
 
